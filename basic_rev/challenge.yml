@@ -1,0 +1,19 @@
+---
+category: Reverse Engineering
+description: Very easy
+tags:
+    - rev
+    - easy
+files:
+    - dist/chal
+flags:
+    - BKISC{Y3s!_Y0u_g0t_th3_fl4g!}
+name: Basic rev
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 50
+state: visible
+author: HSon
