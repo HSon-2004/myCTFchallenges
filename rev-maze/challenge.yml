@@ -1,0 +1,21 @@
+---
+category: Reverse Engineering
+description: Can you find the way out of this maze?
+tags:
+    - rev
+    - medium
+files:
+    - dist/chal
+    - dist/map
+flags:
+    - BKISC{C0gr4tul4ti0n!_Y0u_are_the_w1nner_0f_th1s_g4me}
+name: Maze
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 50
+state: hidden
+author: HSon
+connection_info: http://instance.lab.bkisc.com

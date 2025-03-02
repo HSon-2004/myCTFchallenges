@@ -1,0 +1,13 @@
+title: rev-maze
+
+services:
+    - image: ghcr.io/clbattthcmut/rev-Maze:latest
+      ports:
+          - 5000
+      environment:
+          - FLAG=BKISC{C0gr4tul4ti0n!_Y0u_are_the_w1nner_0f_th1s_g4me}
+      cpu: 1
+      memory: 1G
+      name: app
+      privileged: true
+      visible: false

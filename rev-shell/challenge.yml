@@ -1,0 +1,20 @@
+---
+category: Reverse Enginering
+description: powershell
+tags:
+    - rev
+files:
+    - dist/chal.ps1
+    - dist/output.txt
+flags:
+    - BKISC{0pps_de0bfusc4te_p0wershell}
+name: shell
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 50
+state: hidden
+author: HSon
+
